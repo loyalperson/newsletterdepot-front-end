@@ -1,0 +1,68 @@
+.onboarding{
+    background: #eef3fd;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    padding: 30px 5vw 30px 5vw
+}
+
+@media screen and (min-width: 1440px) {
+    .onboarding {
+        padding-left: calc(72px + 50vw - 720px); /* Adjust the calculation as per your requirement */
+        padding-right: calc(72px + 50vw - 720px); /* Adjust the calculation as per your requirement */
+    }
+}
+
+.onboarding_left{
+    background: #10b981;
+    flex: 50%;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-left: 70px;
+}
+
+.onboarding_right{
+    background: white;
+    flex: 50%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-left: 70px;
+}
+
+.onboarding_thanks{
+    background: white;
+    color: black;
+    flex: 100%;
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 20%;
+    text-align: center;
+    align-content: center;
+}
+
+.update_info{
+    background: white;
+    color: black;
+    flex: 100%;
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column; */
+    align-content: center;
+    max-width: 700px;
+    padding: 50px;
+    margin: auto;
+}
+
+p{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

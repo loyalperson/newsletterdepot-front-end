@@ -1,0 +1,2 @@
+# newsletterdepo-frontend
+Frontend Repo
