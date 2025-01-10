@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://letter-server-0296fb6a1e70.herokuapp.com/' });
+const API = axios.create({ baseURL: 'https://newsletter-depo-5f8416dcbbe5.herokuapp.com/' });
 
 export const sendUserInfo = (content) => API.post('/user_info', content);
 export const updateUserInfo = (content) => API.post('/update_info', content);
